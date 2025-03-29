@@ -1,0 +1,25 @@
+nav{
+    background-color: #fdf3e3;
+    padding: 2px;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 20px -6px black;
+    z-index: 1;
+}
+
+a {
+    text-decoration: none;
+    color: black;    
+}
+
+.navElement{
+    padding:1rem;
+    text-align: center;
+}
+
+#logo{
+    width: 10%;
+}
