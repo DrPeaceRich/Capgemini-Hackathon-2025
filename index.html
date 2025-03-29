@@ -4,33 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blomstrende Glede</title>
-    <link rel="stylesheet" href="css\stylesFredrik.css">
+    <link rel="stylesheet" href="css/stylesFredrik.css">
+    <!-- Eventuelt inkludere en font som Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Blomstrende Glede 🌸</h1>
-        <p>Vakre buketter og blomsterdekorasjoner for enhver anledning</p>
+    <header class="site-header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1><a href="#">Blomstrende Glede 🌸</a></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Hjem</a></li>
+                <li><a href="#">Om oss</a></li>
+                <li><a href="#">Blomster</a></li>
+                <li><a href="#">Kontakt oss</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <section class="banner">
-        <img src="https://images.ctfassets.net/h1eh3mhnbyvi/MTSnioxTmjLZy8m0xMwzV/43e3ffa55fc0f6c1cfd7677bfb81a9fb/FTD-Merx-HPorCLP-OverlayHero-Desktop-Spring25-Easter-0752.jpg?w=1920&fm=webp&q=70" alt="Vakre blomster">
-    </section>
-    
-    <section class="about">
-        <h2>Om oss</h2>
-        <p>Hos Blomstrende Glede sprer vi glede med håndplukkede blomster og unike dekorasjoner. Besøk oss for vakre buketter til enhver anledning!</p>
-    </section>
-    
-    <section class="values">
-        <h2>Våre verdier</h2>
-        <p>Hos Blomstrende Glede sprer vi glede med håndplukkede blomster og unike dekorasjoner. Besøk oss for vakre buketter til enhver anledning!</p>
+
+    <section class="hero-banner">
+        <img src="Bilder/mday-2017-6-1024x320.jpg" alt="Vakre blomster" class="hero-img">
+        <div class="hero-text">
+            <h2>Vakre buketter for alle anledninger</h2>
+            <p>Gjør dagen lysere med våre friske og fargerike blomster.</p>
+            <a href="#shop" class="btn-primary">Se våre buketter</a>
+        </div>
     </section>
 
-    <section class="values">
-        <h2>Våre verdier</h2>
-        <p>Hos Blomstrende Glede sprer vi glede med håndplukkede blomster og unike dekorasjoner. Besøk oss for vakre buketter til enhver anledning!</p>
-    </section>
-    
- 
+    <main>
+        <section class="about">
+            <h2>Om oss</h2>
+            <p>Velkommen til Blomstrende Glede, et sted hvor blomster ikke bare er en hobby, men en livsstil. Vi er en liten, koselig butikk drevet med kjærlighet og omtanke for både naturen og våre kunder. Hos oss finner du ikke bare vakre buketter, men små stykker av glede som kan lyse opp hverdagen.</p>
+            <p>Vi forstår hvor viktig blomster er – de kan uttrykke følelser, bringe minner tilbake og sette farge på enhver anledning. Vårt utvalg er alltid friskt og nøye plukket, med fokus på skjønnhet, duft og holdbarhet.</p>
+        </section>
+
+        <section class="values">
+            <h2>Våre verdier</h2>
+            <p>Vi setter kvalitet og kundetilfredshet i sentrum. Hver blomst vi velger er nøye utvalgt for å sikre at vi leverer de vakreste og mest friske bukettene. Vi tror på personlig service og ønsker å gjøre hver kundeopplevelse spesiell.</p>
+        </section>
+
+        <section class="environment">
+            <h2>Vi tenker på miljøet</h2>
+            <p>Blomstrende Glede er opptatt av bærekraft. Vi jobber aktivt for å redusere vårt økologiske fotavtrykk ved å velge miljøvennlige materialer og støtte lokale leverandører som deler vårt engasjement for naturen.</p>
+        </section>
+
+        <section class="contact">
+            <h2>Kontakt oss</h2>
+            <p>Har du spørsmål? Ta gjerne kontakt med oss, vi er her for å hjelpe!</p>
+            <a href="mailto:info@blomstrendeglede.no" class="btn-primary">Send oss en e-post</a>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2025 Blomstrende Glede. Alle rettigheter reservert.</p>
+    </footer>
+
 </body>
 </html>
