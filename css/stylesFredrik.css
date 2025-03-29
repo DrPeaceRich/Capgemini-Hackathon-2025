@@ -23,42 +23,7 @@ ul {
 }
 
 /* Header */
-.site-header {
-    background-color: #ffffff;
-    padding: 20px 0;
-    border-bottom: 1px solid #e2e2e2;
-}
 
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.navbar .logo h1 a {
-    font-size: 28px;
-    font-weight: 700;
-    color: #33a77d; /* Blomstergreentone */
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links li a {
-    font-size: 16px;
-    font-weight: 500;
-    color: #333;
-    transition: color 0.3s ease;
-}
-
-.nav-links li a:hover {
-    color: #33a77d;
-}
 
 /* Hero Banner */
 .hero-banner {
@@ -173,3 +138,4 @@ section p {
     }
 
     .hero-banner {
+    
