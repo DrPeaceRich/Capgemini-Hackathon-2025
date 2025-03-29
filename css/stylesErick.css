@@ -67,7 +67,7 @@ button {
 
 .product img {
   width: 50%;
-  height: auto;
+  height: 150%;
   margin-bottom: 15px;
 }
 
@@ -84,7 +84,7 @@ button {
   background-color: #fdf3e3;
   color: black;
   padding: 14px 20px;
-  margin: 15px 0 0; /* litt avstand før knappen */
+  margin: 20px 0 0; /* litt avstand før knappen */
   border: none;
   cursor: pointer;
   width: 100%;
