@@ -1,25 +1,23 @@
-nav{
-    background-color: #fdf3e3;
-    padding: 2px;
-    overflow: auto;
-    height: 100%;
-    width: 100%;
+nav {
     display: flex;
     align-items: center;
-    box-shadow: 0 1px 20px -6px black;
-    z-index: 1;
+    background-color: #fdf3e3;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-a {
+#logo {
+    height: 80px;
+}
+
+.navElement {
     text-decoration: none;
-    color: black;    
+    color: black;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
 }
 
-.navElement{
-    padding:1rem;
-    text-align: center;
-}
-
-#logo{
-    width: 10%;
+.navElement:hover {
+    color: pink;
 }
