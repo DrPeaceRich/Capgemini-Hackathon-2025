@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #fdf3e3;
+    padding: 10px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    height: 80px;
+}
+
+.navElement {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    margin: 0 15px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navElement:hover {
+    color: pink;
+}
